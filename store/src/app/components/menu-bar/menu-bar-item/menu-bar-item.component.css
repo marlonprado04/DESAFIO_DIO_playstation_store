@@ -1,0 +1,30 @@
+
+.menu-bar-item__container{
+	display: flex;
+	margin: auto;
+	align-items: center;
+}
+
+.menu-bar-item__container>ul {
+	display: flex;
+
+	list-style-type: none;
+}
+
+.menu-bar-item__container>ul>li {
+	padding: 5px;
+	margin-right: 15px;
+}
+
+.menu-bar-item__container>ul>li>a {
+	padding: 5px;
+
+	text-decoration: none;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-bar-item__container>ul>li>a:hover{
+	color: blue;
+	font-weight: 600;
+}
