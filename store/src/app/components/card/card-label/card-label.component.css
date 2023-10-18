@@ -1,0 +1,23 @@
+.card-label__container {
+	/* Position absolute para que ele fique na frente do componente pai que será relative */
+	position: absolute;
+
+	bottom: 90px;
+	right: 0;
+}
+
+.card-label__content {
+	background-color: #0d0d0d;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: white;
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+
+	height: 40px;
+	padding: 0px 50px;
+}
