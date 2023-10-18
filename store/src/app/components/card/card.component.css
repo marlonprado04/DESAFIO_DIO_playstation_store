@@ -1,0 +1,34 @@
+.card__container {
+	/* Atribuindo position relative para que os outros elementos fiquem encima dele */
+	position: relative;
+
+	border: 3px solid #3e4357;
+	border-radius: 10px;
+
+	width: 350px;
+	height: 500px;
+
+	display: flex;
+	margin-top: 10px;
+
+	/* Atribuindo overflow para que todo conteúdo excedente (fora da caixa) seja escondido*/
+	overflow: hidden;
+}
+
+.card__img {
+	/* Independente do tamanho da imagem, ela sempre ocupara todo espaço */
+	min-width: 100%;
+	min-height: 100%;
+
+	/* Atribuindo um tempo de transição para o eveito :hover da imagem */
+	transition: transform 0.8s;
+
+}
+
+
+.card__img:hover {
+	/* Aumentando a escala da imagem em 110% ao passar o mouse por cima */
+
+	/* O aumento leva o tempo atribuido na transition */
+	transform: scale(1.1);
+}
