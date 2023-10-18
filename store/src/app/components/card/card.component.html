@@ -1,6 +1,7 @@
 <a href="#" class="card__container">
-	<img class="card__img" src="assets/bt-5.jpg" alt="Batlefield 5">
-	<app-card-label gameLabel="Digital"></app-card-label>
-	<app-card-pricing></app-card-pricing>
+	<img class="card__img" [src]="[gameCover]" alt="Batlefield 5">
+	<app-card-label gameLabel="{{gameLabel}}"></app-card-label>
+
+	<app-card-pricing gamePrice="{{gamePrice}}" gameType="{{gameType}}"></app-card-pricing>
 
 </a>
